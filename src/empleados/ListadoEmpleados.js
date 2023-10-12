@@ -20,7 +20,7 @@ export default function ListadoEmpleados() {
 
     return (
         <div className='container'>
-            <div className='container text-center' style={{ margin: "30px" }}>
+            <div className='container text-center' style={{ marginTop: "30px", marginBottom: "30px" }}>
                 <h3>Sistema de Recursos Humanos</h3>
             </div>
 
