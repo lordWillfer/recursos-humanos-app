@@ -14,8 +14,6 @@ export default function ListadoEmpleados() {
 
     const cargarEmpleados = async () => {
         const resultado = await axios.get(urlBase);
-        console.log("Resultado cargar empleados");
-        console.log(resultado.data);
         setEmpleados(resultado.data);
     }
 
